@@ -3,13 +3,12 @@
 
   <head>
       <title>RPS Game</title>
-      <!-- Link CSS here -->
-      
-      <!-- Link JQuery here -->
-      
-      <!-- Link Javascript File here -->
-      
-      <!-- Latest compiled and minified Bootstrap CSS -->
+      <link rel="stylesheet" href="css/style.css">
+      <script src="js/script.js"></script>
+      <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    	
       
   </head>
 
@@ -22,13 +21,54 @@
         5. Add divs to record User Choice and Computer Choice.
         6. Add a div to record the Winner.
      -->
-    <div class="container text-center">
-    
-      
-
-
-    
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-12">
+      <h1>Ultimate Rock Paper Scissors!</h1>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p>How to Play: Type your choice of either rock, paper, or scissors
+            into the input feild and hit shoot wen you decide</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img id="rps" src="images/rockpaperscissors.png">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+            <input>
+      </div>
+    <div class="col-md-6">
+            <button>Shoot!</button>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+          <div id="user">
+            <h1>Your Choice</h1>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <div id="results">
+          <h1>The Winner Is</h1>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div id="cpu">
+          <h1>CPU Choice</h1>
+        </div>
+      </div>
+    </div>
+        
+
+    
+  </div>
 
   </body>
 
